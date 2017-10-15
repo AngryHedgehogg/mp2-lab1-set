@@ -1,2 +1,18 @@
-﻿  tset.cpp
-  bitfield.vcxproj -> C:\Users\Asus\Desktop\работы\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Debug\bitfield.lib
+﻿Build started 11.10.2017 16:10:01.
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" on node 2 (build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "Debug\bitfield.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         bitfield.vcxproj -> C:\Users\sarynin.s\Desktop\лабораторная\job\mp2-lab1-set-master\sln\vc10\Debug\bitfield.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\bitfield.unsuccessfulbuild".
+         Touching "Debug\bitfield.lastbuildstate".
+     1>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

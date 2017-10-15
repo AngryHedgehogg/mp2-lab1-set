@@ -1,6 +1,29 @@
-﻿  sample_prime_numbers.cpp
-  Generating code
-  All 20 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  sample_prime_numbers.vcxproj -> C:\Users\Asus\Desktop\работы\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\sample_prime_numbers.exe
-  sample_prime_numbers.vcxproj -> C:\Users\Asus\Desktop\работы\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\sample_prime_numbers.pdb (Full PDB)
+﻿Build started 04.10.2017 16:21:58.
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" on node 3 (Build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" (1) is building "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (2) on node 3 (GetTargetPath target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (GetTargetPath target(s)).
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" (1) is building "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (2:2) on node 3 (GetNativeManifest target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (GetNativeManifest target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\samples\sample_prime_numbers.cpp
+         sample_prime_numbers.cpp
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" (1) is building "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (2:3) on node 3 (GetResolvedLinkLibs target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (GetResolvedLinkLibs target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\sample_prime_numbers.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Release bitfield.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\sample_prime_numbers.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\sample_prime_numbers.lib" /MACHINE:X86 /SAFESEH Release\sample_prime_numbers.obj
+         "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\bitfield.lib"
+         Generating code
+         Finished generating code
+         sample_prime_numbers.vcxproj -> C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\sample_prime_numbers.exe
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" (1) is building "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (2:4) on node 3 (GetCopyToOutputDirectoryItems target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     2>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (GetCopyToOutputDirectoryItems target(s)).
+     1>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.73

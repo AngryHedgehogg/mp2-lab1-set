@@ -81,8 +81,7 @@ TSet TSet::operator+(const TSet &s) // объединение
 
 TSet TSet::operator+(const int Elem) // объединение с элементом
 {
-	TSet temp(MaxPower);
-	temp = *this;
+	TSet temp(*this);
 	if (temp.BitField.GetBit(Elem) != 1)
 		temp.BitField.SetBit(Elem);
 	return temp;
@@ -90,8 +89,7 @@ TSet TSet::operator+(const int Elem) // объединение с элемент
 
 TSet TSet::operator-(const int Elem) // разность с элементом
 {
-	TSet temp(MaxPower);
-	temp = *this;
+	TSet temp(*this);
 	if (temp.BitField.GetBit(Elem) == 1)
 		temp.BitField.ClrBit(Elem);
 	return temp;
@@ -105,8 +103,8 @@ TSet TSet::operator*(const TSet &s) // пересечение
 
 TSet TSet::operator~(void) // дополнение
 {
-	TSet Temp(MaxPower);
-	Temp.BitField = ~(*this).BitField;  
+	TSet Temp(~(*this).BitField);
+	//Temp.BitField = ~(*this).BitField;  
 	return Temp;
 }
 

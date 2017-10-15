@@ -1,3 +1,16 @@
-﻿  tbitfield.cpp
-  tset.cpp
-  bitfield.vcxproj -> C:\Users\Asus\Desktop\работы\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\bitfield.lib
+﻿Build started 04.10.2017 16:21:17.
+     1>Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" on node 3 (Build target(s)).
+       Project file contains ToolsVersion="15.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../../include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\tbitfield.cpp ..\..\..\src\tset.cpp
+         tbitfield.cpp
+         tset.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\bitfield.lib" /NOLOGO /LTCG Release\tbitfield.obj
+         Release\tset.obj
+         bitfield.vcxproj -> C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\Release\bitfield.lib
+     1>Done Building Project "C:\Users\sarynin.s\Desktop\лабораторная 1\job\mp2-lab1-set-master\sln\vc10\bitfield\bitfield.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26

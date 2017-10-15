@@ -7,24 +7,6 @@ TEST(TBitField, can_create_bitfield_with_positive_length)
   ASSERT_NO_THROW(TBitField bf(3));
 }
 
-
-/*
-TEST(TBitField, tipo_svoy_test_zero_set) // / /  / / / / / / / /  // // / / / / / / / /
-{
-	TBitField bf(200);
-	TBitField bf2(250);
-	TBitField bf3(10);
-
-	bf.SetBit(5);
-	bf2.SetBit(105);
-	bf3 = bf&bf2;
-
-	EXPECT_EQ(2 , bf2.GetBit(105));
-	EXPECT_EQ(2, bf.GetBit(200));
-
-}
-*/
-
 TEST(TBitField, can_get_length)
 {
   TBitField bf(3);
@@ -309,4 +291,36 @@ TEST(TBitField, bitfields_with_different_bits_are_not_equal)
   bf2.SetBit(2);
 
   EXPECT_NE(bf1, bf2);
+}
+
+TEST(TBitField,test_ne_a_b)
+{
+const int size=6;
+TBitField a1(size), b1(size);
+
+a1.SetBit(1);
+a1.SetBit(5);
+
+b1.SetBit(0);
+b1.SetBit(2);
+b1.SetBit(3);
+b1.SetBit(4);
+
+EXPECT_EQ(a1,~b1);
+}
+
+TEST(TBitField,sv0y_test)
+{
+	TBitField a(200),b(120),c(120),d(120);
+
+	a.SetBit(1);
+	a.SetBit(3);
+
+	b.SetBit(1);
+	b.SetBit(4);
+
+	d.SetBit(1);
+
+	c=a&b;
+	EXPECT_EQ(c,d);
 }
